@@ -13,5 +13,9 @@ class Settings:
     DEVELOPMENT = 'Development'
 
 
+class TestExam:
+    NAME = 'name'
+
+
 class User:
     USERNAME = 'username'

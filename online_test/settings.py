@@ -7,9 +7,9 @@ CI_TASKS = (
 VIEWS = ()
 
 PROJECT_APPS = VIEWS + (
-    'test_exam',
-    'test_exam_users',
-    'test_exam_util'
+    'online_test',
+    'online_test_users',
+    'online_test_util'
 )
 
 

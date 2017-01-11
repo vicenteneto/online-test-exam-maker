@@ -1,9 +1,9 @@
 from flask_ci import CICommand
 from flask_script import Manager, Server
 
-from test_exam import settings
-from test_exam.app import create_app
-from test_exam_util.constants import FlaskScriptCommands, Settings
+from online_test import settings
+from online_test.app import create_app
+from online_test_util.constants import FlaskScriptCommands, Settings
 
 manager = Manager(create_app)
 
