@@ -1,5 +1,5 @@
-from test_exam.extensions import db
-from test_exam_util.constants import MongoEngine, User as UserC
+from online_test.extensions import db
+from online_test_util.constants import MongoEngine, User as UserC
 
 
 class User(db.Document):

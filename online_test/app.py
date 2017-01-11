@@ -1,8 +1,8 @@
 from flask import Flask
 
-from test_exam import settings
-from test_exam.extensions import db
-from test_exam_util.constants import Settings
+from online_test import settings
+from online_test.extensions import db
+from online_test_util.constants import Settings
 
 
 def create_app(config=None):
